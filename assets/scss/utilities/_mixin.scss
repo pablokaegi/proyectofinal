@@ -1,0 +1,11 @@
+@import "./variables";
+
+
+@mixin propiedades{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.box {
+   @include propiedades;
+}

@@ -1,0 +1,27 @@
+
+@import "../utilities/variables";
+
+.boton {
+	width:auto;
+	background-color:$colorFooter;
+	text-align:center;
+	color:black;
+	border-radius:20px;
+	border:1px solid black;
+    padding: 5px;
+}
+
+.boton--dinero{
+	@extend .boton;
+	padding: 8px;
+	color:rgb(33, 17, 124);
+}
+.slider_btn {
+    font: 500 14px/20px $pop;
+    border-radius: 45px;
+    padding: 15px 35px;
+    background: #fff;
+    &:hover {
+        color: #fff;
+    }
+}

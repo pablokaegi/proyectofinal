@@ -1,0 +1,28 @@
+
+@import "../utilities/variables";
+
+
+
+    
+/* ------------------ Footer --------------------- */
+.footer {
+ 
+ padding: 30px;
+ margin-bottom: 5px;
+ text-align: map-get($boton, centro); 
+ font-size: map-get($boton, Fuente);
+ background: $colorFooter;
+     img{
+     width: 35px;
+     padding: 5px;
+     &:hover{
+         opacity: 1;
+     }
+ }
+}
+.contacto p {
+ margin-bottom: 15px;
+ text-align: start;
+ justify-content: center;
+ 
+}
